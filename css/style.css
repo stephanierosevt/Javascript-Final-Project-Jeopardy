@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+body{
+  background-color:#060CE9;
+  font-family: 'Arial', serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+#question{
+  font-family: 'Arial', serif;
+  text-shadow: 2px 2px 3px black; 
+  text-align: center;
+}
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+  text-shadow: 2px 2px 3px black; 
+  font-size: 5vw;
+  text-align: center;
+}
+#categoryText {
+  font-size: 2vw;
+  text-transform: uppercase;
+  color: yellow;
+  padding-top: 3rem;
+}
+#questionText {
+  font-size: 4vw;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+#answerText {
+  font-size: 2.5vw;
+  font-style: italic;
+}
+table {
+  table-layout: fixed;
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;  
+  border: 3px solid black;
+  text-align: center;
+  text-shadow: 2px 2px 3px black; 
+  font-family: 'Fjalla One', sans-serif;
+}
+td {
+  padding: 1rem;
+  border: 3px solid black;
+}
+th {
+  padding: 1rem;
+  text-transform: uppercase;
+  color: white;
+  font-size: 2.5vw;
+  border: 3px solid black;
+  border-bottom: 5px solid black;
+  border-top: 5px solid black;
+}
+.questionValue{
+  text-align: center;
+  color: yellow;
+  background-color: transparent;
+  font-size: 5vw;
+  text-shadow: 2px 2px 3px black; 
+  font-family: 'Fjalla One', sans-serif;
+  border: 0;
+  cursor: pointer;
+  padding: 1rem;
+}
+.cardButton{
+  border: 0;
+  color: white;
+  font-size: 1rem;
+  padding: .5rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#revealAnswer{
+  background-color: red;
+}
+#showGrid{
+  background-color: purple;
+}
+#buttons{
+  text-align: center;
+}
